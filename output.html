@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CDSS Group 2 Example</title>
+  <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo-icon.png"/>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <header class="header">
+
+
+<div class="container">
+  <h1>Data Challenge CDSS Example</h1>
+
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Weighted Diagnosis</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in">
+        <div class="panel-body">Given the patient data and original eye scan, the model predicts a <b>93% chance of category zero</b>, 6% category one and 1% category two.</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Original model Diagnosis</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body">Given the patient data and original eye scan, the model predicts a <b>89% chance of category zero</b>, 8% category one and 3% category two.</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Original Scan</a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body"><img src="eye.jpeg" alt="Eye Scan"  class="img-responsive"></div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Reccommended course of action</a>
+        </h4>
+      </div>
+      <div id="collapse4" class="panel-collapse collapse">
+        <div class="panel-body">Based on the Weighted Diagnosis we are very certain the patient does not currently have Diabetic Retinopathy, however there is still some uncertainty if the patient may be at the early stages. <br> Therefore it may not be reccomended to delay further check ups. <br> The patient is low risk of being stage one or higher and therefore the only action to be reccomended it to maintain check ups.</div>
+      </div>
+    </div>
+  </div>
+    <p><strong>Note:</strong> The CDSS only adds valut to the overal diagnosis of patients and should be used to gain more information, and Data Challenge group is not responsible for the final medical diagnosis, and all of the original data (eye scans) remain visible.</p>
+    <a href="index.html" class="button"><p><strong>Return to input</strong></p></a>
+
+</div>
+
+</header>
+</body>
+</html>
